@@ -24,7 +24,7 @@ header {
 
 footer {
   background-color: #03a3df;
-  background-image: url(/images/footerImage.jpg);
+  background-image: url(../images/footerImage.jpg);
   background-size: cover;
   padding: 2rem;
   display: flex;
