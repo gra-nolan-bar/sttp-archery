@@ -5,6 +5,19 @@
 header {
   background-color: #03a3df;
   padding: 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-nav-links {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 14rem;
+  color: white;
 }
 
 footer {
@@ -12,4 +25,109 @@ footer {
   background-image: url(/images/footerImage.jpg);
   background-size: cover;
   padding: 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  font-size: 40px;
+}
+
+.archery-logo {
+  width: 14rem;
+}
+
+.top-heading {
+  margin-left: 10px;
+}
+
+.classes-exterior-container {
+  background-color: #444444;
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.classes-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.classes-box {
+  margin: 10px;
+  max-width: 25rem;
+  min-width: 10rem;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 5px;
+  color: white;
+  font-size: 17px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.classes-heading {
+  margin: 0 0 0 15px;
+  padding-top: 10px;
+  font-size: 24px;
+}
+
+.class-title {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.lessons-exterior-container {
+  border: 2px solid #1b447f;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.lessons-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.lessons-box {
+  margin: 10px;
+  max-width: 25rem;
+  min-width: 10rem;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid #1b447f;
+  border-radius: 10px;
+}
+
+.lessons-heading {
+  margin: 0 0 0 15px;
+  padding-top: 10px;
+  font-size: 24px;
+}
+
+.lesson-title {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+address {
+  display: flex;
+  align-items: top;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.contact-info {
+  margin: 10px;
+  color: white;
+  font-size: 14px;
 }
