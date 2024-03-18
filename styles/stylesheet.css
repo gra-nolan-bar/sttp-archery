@@ -10,6 +10,7 @@ header {
   justify-content: space-between;
   align-items: center;
   border-radius: 10px;
+  min-width: 55rem;
 }
 
 .top-nav-links {
@@ -31,10 +32,13 @@ footer {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  min-width: 55rem;
 }
 
 .main-title {
   font-size: 40px;
+  text-align: center;
+  min-width: 55rem;
 }
 
 .archery-logo {
@@ -50,6 +54,7 @@ footer {
   color: white;
   border-radius: 10px;
   margin: 10px 0 10px 0;
+  min-width: 55rem;
 }
 
 .classes-container {
@@ -60,6 +65,7 @@ footer {
 }
 
 .classes-box {
+  background-color: #1b447f;
   margin: 10px;
   max-width: 25rem;
   min-width: 10rem;
@@ -68,7 +74,7 @@ footer {
   flex-shrink: 1;
   padding: 5px;
   color: white;
-  font-size: 17px;
+  font-size: 14px;
   border: 2px solid white;
   border-radius: 10px;
 }
@@ -82,12 +88,14 @@ footer {
 .class-title {
   font-size: 17px;
   font-weight: bold;
+  color: #ecb722;
 }
 
 .lessons-exterior-container {
   border: 2px solid #1b447f;
   border-radius: 10px;
   margin: 10px 0 15px 0;
+  min-width: 55rem;
 }
 
 .lessons-container {
@@ -106,8 +114,6 @@ footer {
   flex-shrink: 1;
   padding: 5px;
   font-size: 17px;
-  border: 2px solid #1b447f;
-  border-radius: 10px;
 }
 
 .lessons-heading {
@@ -123,7 +129,7 @@ footer {
 
 address {
   display: flex;
-  align-items: top;
+  align-items: center;
   flex-flow: row nowrap;
   justify-content: flex-start;
 }
@@ -132,4 +138,54 @@ address {
   margin: 10px;
   color: white;
   font-size: 14px;
+  min-width: 250px;
+  text-align: center;
+}
+
+.instructor-main-paragraph {
+  margin: 15px;
+}
+
+.instructor-exterior-container {
+  background-color: #444444;
+  color: white;
+  border-radius: 10px;
+  margin: 10px 0 10px 0;
+  min-width: 55rem;
+}
+
+.instructor-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.instructor-box {
+  background-color: #1b447f;
+  margin: 10px;
+  max-width: 25rem;
+  min-width: 15rem;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 5px;
+  color: white;
+  font-size: 14px;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.profile-photo {
+  width: 10rem;
+}
+
+.main-paragraph {
+  min-width: 53rem;
+  margin-left: 5px;
+}
+
+.policy-paragraph {
+  margin-left: 15px;
 }
