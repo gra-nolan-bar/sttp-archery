@@ -24,7 +24,7 @@ header {
 
 .arrow-vid {
   border-radius: 10px;
-  margin: -100px -100px -100px -100px;
+  margin: -50px -50px -50px -50px;
 }
 
 footer {
@@ -230,4 +230,14 @@ address {
 
 .classes-box p {
   font-size: 13px;
+}
+
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+}
+
+.hidden:focus {
+  left: 0;
 }
